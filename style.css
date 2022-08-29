@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto+serif', cursive;
+}
+
+.part-img1{
+
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    opacity: 0.75;
+    background-size: cover;
+
+}
+
+.part-img1 h1{
+
+    background-color: #eee;
+    color:black;
+    outline: 0.5rem outset rgb(129, 9, 129);
+    border: none;
+    outline-offset: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+    width: 40%;
+    text-align: center;
+    
+
+}
+.light{
+    background-color:gray;
+    color: black;
+    font-size: 1.2rem;
+    padding: 3rem 7rem;
+    word-spacing: 3px;
+    line-height: 1.5rem;
+}
+
+
+body{
+    text-align: center;
+
+}
+.part-img2{
+    background-image: url(bg2.jpg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    opacity: 0.75;
+    background-size: cover;
+
+}
+.light{
+    background-color:gray;
+    color: black;
+    font-size: 1.2rem;
+    padding: 3rem 7rem;
+    word-spacing: 3px;
+    line-height: 1.5rem;
+}
+.part-img2 img{
+    width: 30%;
+}
+.part-img3{
+    background-image: url(bg3.jpg);
+    height: 100vh;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    opacity: 0.75;
+    background-size: cover;
+}
+
+.part-img3 h1{
+
+    background-color: #eee;
+    color:black;
+    outline: 0.5rem outset purple;
+    border: none;
+    outline-offset: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+    width: 40%;
+    text-align: center;
+}
+.dark{
+    background-color:gray;
+    color: black;
+    font-size: 1.2rem;
+    padding: 3rem 7rem;
+    word-spacing: 3px;
+    line-height: 1.5rem;
+
+}
+.part-img4{
+    background-image: url(bg4.jpg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    opacity: 0.90;
+    background-size: cover;
+}
+.part-img4 h1{
+
+    background-color: #eee;
+    color:black;
+    outline: 0.5rem outset purple;
+    border: none;
+    outline-offset: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+    width: 40%;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
